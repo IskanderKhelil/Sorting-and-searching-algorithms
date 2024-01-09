@@ -1,0 +1,31 @@
+ALGORITHM Sorting
+VAR
+    i,j,k: INTEGER;
+    tab1,tab2: ARRAY[50];
+BEGIN
+    FOR i FROM 0 TO tab1.length STEP 1 DO 
+        read (tab1[i]);
+    END FOR;
+
+
+    FOR i FROM 0 TO tab1.length STEP 1 DO
+
+        IF length.tab2=0;
+        THEN tab2[j]:=tab1[i];
+        END IF;
+
+    i:=0;
+
+    While(j<length.tab2) DO
+        IF (tab[i]<tab2[j])
+            FOR k FROM (length.tab2)-1 TO j STEP -1 DO
+            tab2[k+1]:=tab2[k];
+            END FOR
+            BREAK WHILE;
+        ELSE i++;
+    END WHILE;
+
+    tab2[j]:=tab1[i];
+
+    END FOR;
+END
